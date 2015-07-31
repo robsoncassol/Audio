@@ -13,6 +13,7 @@
 		4A4F83741B6BBE8400BEA4D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A4F83731B6BBE8400BEA4D9 /* Images.xcassets */; };
 		4A4F83771B6BBE8400BEA4D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A4F83751B6BBE8400BEA4D9 /* LaunchScreen.xib */; };
 		4A4F83831B6BBE8400BEA4D9 /* AudioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4F83821B6BBE8400BEA4D9 /* AudioTests.swift */; };
+		4A4F838D1B6BBE9D00BEA4D9 /* r_preludio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A4F838C1B6BBE9D00BEA4D9 /* r_preludio.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		4A4F837C1B6BBE8400BEA4D9 /* AudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A4F83811B6BBE8400BEA4D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A4F83821B6BBE8400BEA4D9 /* AudioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTests.swift; sourceTree = "<group>"; };
+		4A4F838C1B6BBE9D00BEA4D9 /* r_preludio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = r_preludio.mp3; path = ../../../../Downloads/r_preludio.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				4A4F836C1B6BBE8400BEA4D9 /* AppDelegate.swift */,
 				4A4F836E1B6BBE8400BEA4D9 /* ViewController.swift */,
+				4A4F838C1B6BBE9D00BEA4D9 /* r_preludio.mp3 */,
 				4A4F83701B6BBE8400BEA4D9 /* Main.storyboard */,
 				4A4F83731B6BBE8400BEA4D9 /* Images.xcassets */,
 				4A4F83751B6BBE8400BEA4D9 /* LaunchScreen.xib */,
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A4F83721B6BBE8400BEA4D9 /* Main.storyboard in Resources */,
+				4A4F838D1B6BBE9D00BEA4D9 /* r_preludio.mp3 in Resources */,
 				4A4F83771B6BBE8400BEA4D9 /* LaunchScreen.xib in Resources */,
 				4A4F83741B6BBE8400BEA4D9 /* Images.xcassets in Resources */,
 			);
