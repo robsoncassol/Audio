@@ -7,21 +7,38 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
 
+    var player:AVAudioPlayer = AVAudioPlayer()
 
+    @IBOutlet weak var slider: UISlider!
+    
     @IBAction func play(sender: AnyObject) {
+    
+        player.play()
         
     }
     
     @IBAction func pause(sender: AnyObject) {
         
+        player.pause()
+        
     }
+    
+    @IBAction func sliderChanged(sender: AnyObject) {
+        player.volume = slider.value
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        var audioPath = NSBundle.mainBundle().pathForResource("r_preludio", ofType: "mp3")!
+        
+        var error: NSError? = nil
+        
+        player = AVAudioPlayer(contentsOfURL: NSURL(string: audioPath), error: &error)
     }
 
     override func didReceiveMemoryWarning() {
